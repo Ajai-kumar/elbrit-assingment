@@ -1,0 +1,150 @@
+.blog-container{
+    margin: 5% 10%;
+}
+.blog-header-container{
+    width: 100%;
+}
+.blog{
+    font-size: 10px;
+    font-family: "jost";
+    font-weight: 600;
+    color: #003569;
+    text-align: center;
+}
+@media screen and (min-width:768px) {
+    .blog{
+      font-size: 16px;
+    }
+  }
+.blog-head{
+    font-size: 20px;
+    font-family: "jost";
+    font-weight: 600;
+    color: #17414f;
+    text-align: center;
+}
+@media screen and (min-width:576px) and (max-width:767px){
+    .blog-head{
+      font-size: 25px;
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:1000px){
+    .blog-head{
+      font-size: 30px;
+    }
+  }
+@media screen and (min-width:1000px) {
+    .blog-head{
+      font-size: 48px;
+    }
+  }
+.blog-list-container{
+    list-style: none;
+    height: 400px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+@media screen and (min-width:768px) {
+    .blog-list-container{
+        height: 820px;
+    }
+}
+.blog-list{
+    width: 200px;
+    border-radius: 8px;
+    background-size: cover;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+@media screen and (min-width:768px) {
+    .blog-list{
+        width: 290px;
+        border-radius: 15px;
+        background-size: cover;
+        padding: 10px 15px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}
+.blog-bg-1{
+    background-image: url("https://s3-alpha-sig.figma.com/img/e186/51c0/bff366efc73350d196325f72ae85615d?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=H93gFY~1gUwXkysy0T1Nehog7vVKi~rY3eqF2RYL8~wljB6e-ZC97ICaNDm~pt~mPSRTAoBD365zUCbru9CO9NwzTdagFor1~U5Y6C7CzjPI~hyvtmr4ZHUnzDUNOHL8wXF-q64J9-DkiwPJyrUA9DlK3qoUxkLvKJ3LcooTbBzhODsmogg8OH3ERMyuPGnimcvgXp0Rg2qE2A3SOlYeMe1XQufyxuO4FizyfkQOeXGZLWaxwR0knUdStpogBfIw30pBAdMuO6C-fXagl9X9yEjq356rM3YOv96duoVRXZnYo0Bx8UIAnDDYQuecfLfJBWB-5~HE-A~0PyyBbWK1Dg");
+    height: 350px;
+    background-position: center;
+}
+@media screen and (min-width:768px) {
+    .blog-bg-1{
+        height: 502px;
+    }
+}
+.blog-bg-2{
+    background-image: url("https://s3-alpha-sig.figma.com/img/b9db/d8fe/538ccfb6083e67ad7f101adbfd0e48d7?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BOpCkE9SFeW7vNlOr8ueRiEu2Le3BBA4Hdt3LXConppv~ponV2vFOwelZrkUd7nVwRnQtu0foUtFH-kYaczcGedT3djwqblFA5JuminqE-pxzeVt5wlk1Ve2-FQ-YgezCHKpvEar0CTu-g0r9-eE4VDFV1kAdPnlksrPSZciAdhUPXmSNMQHLTlruWKj0MpFO~wiB-wCO9L1BVySNMcJc1d39iQe-KD5zzDME7r3mDjwxETPkVdq1QAWTbmk~zVkZeZhygFxnYpWAmaRmaRMJqaSSArqC0WOLpVqdLST-9JoBw8KJZWCX-mS7EchzR1zfyJ2U8u-W87yrxDxNfz4dw");
+    height: 150px;
+}
+@media screen and (min-width:768px) {
+    .blog-bg-2{
+        height: 226px;
+    }
+}
+.blog-bg-3{
+    background-image: url("https://s3-alpha-sig.figma.com/img/e186/51c0/bff366efc73350d196325f72ae85615d?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=H93gFY~1gUwXkysy0T1Nehog7vVKi~rY3eqF2RYL8~wljB6e-ZC97ICaNDm~pt~mPSRTAoBD365zUCbru9CO9NwzTdagFor1~U5Y6C7CzjPI~hyvtmr4ZHUnzDUNOHL8wXF-q64J9-DkiwPJyrUA9DlK3qoUxkLvKJ3LcooTbBzhODsmogg8OH3ERMyuPGnimcvgXp0Rg2qE2A3SOlYeMe1XQufyxuO4FizyfkQOeXGZLWaxwR0knUdStpogBfIw30pBAdMuO6C-fXagl9X9yEjq356rM3YOv96duoVRXZnYo0Bx8UIAnDDYQuecfLfJBWB-5~HE-A~0PyyBbWK1Dg");
+    height: 150px;
+}
+@media screen and (min-width:768px) {
+    .blog-bg-3{
+        height: 226px;
+    }
+}
+.blog-bg-4{
+    background-image: url("https://s3-alpha-sig.figma.com/img/b9db/d8fe/538ccfb6083e67ad7f101adbfd0e48d7?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BOpCkE9SFeW7vNlOr8ueRiEu2Le3BBA4Hdt3LXConppv~ponV2vFOwelZrkUd7nVwRnQtu0foUtFH-kYaczcGedT3djwqblFA5JuminqE-pxzeVt5wlk1Ve2-FQ-YgezCHKpvEar0CTu-g0r9-eE4VDFV1kAdPnlksrPSZciAdhUPXmSNMQHLTlruWKj0MpFO~wiB-wCO9L1BVySNMcJc1d39iQe-KD5zzDME7r3mDjwxETPkVdq1QAWTbmk~zVkZeZhygFxnYpWAmaRmaRMJqaSSArqC0WOLpVqdLST-9JoBw8KJZWCX-mS7EchzR1zfyJ2U8u-W87yrxDxNfz4dw");
+    height: 350px;
+}
+@media screen and (min-width:768px) {
+    .blog-bg-4{
+        height: 502px;
+    }
+}
+.date-container{
+    width: 85px;
+    height: 26px;
+    margin-left: -13px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #003569;
+}
+@media screen and (min-width:768px) {
+    .date-container{
+        width: 115px;
+    height: 36px;
+    margin-left: -25px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    }
+}
+.date{
+    margin-top:10px;
+    font-size: 14px;
+    font-family: "jost";
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+@media screen and (min-width:768px) {
+    .date{
+        font-size: 20px;
+    }
+}
+.blog-p{
+    font-size: 14px;
+    font-family: "jost";
+    font-weight: 700;
+    color: #fff;
+}
+@media screen and (min-width:768px) {
+    .blog-p{
+        font-size: 20px;
+    }
+}

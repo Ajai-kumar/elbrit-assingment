@@ -1,0 +1,110 @@
+.features-container{
+    background-color: #17414f;
+    border-radius: 8%;
+    max-height: 586px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0px 5%;
+}
+@media screen and (min-width:1000px){
+    .features-container{
+        border-radius: 80px;
+    }
+  }
+.features-list-container{
+    list-style: none;
+    padding: 0;
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  @media screen and (min-width:768px){
+    .features-list-container{
+        margin-top: -100px;
+    }
+  }
+
+.features-list-card{
+    margin-top: -20px;
+    margin-bottom: 50px;
+    width: 30%;
+    max-width: 322px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width:768px){
+    .features-list-card{
+        margin-top: -50px;
+    margin-bottom: 13%;
+    }
+  }
+.features-icon-cont{
+    width: 50px ;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width:768px) and (max-width:1000px){
+    .features-icon-cont{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+  }
+@media screen and (min-width:1000px) {
+    .features-icon-cont{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+    }
+  }
+.features-icon{
+    width: 30px;
+    height: 30px;
+}
+@media screen and (min-width:768px) and (max-width:1000px){
+    .features-icon{
+        width: 50px;
+        height: 50px;
+    }
+  }
+@media screen and (min-width:1000px) {
+    .features-icon{
+        width: 90px;
+        height: 90px;
+    }
+  }
+.features-h{
+    font-family: 'jost';
+    font-size: 10px;
+    color: #fff;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+}
+@media screen and (min-width:768px) {
+    .features-h{
+        font-size: 26px;
+    }
+  }
+.features-p{
+    font-family: 'jost';
+    font-size: 8px;
+    color: #fff;
+    font-weight: 400;
+    max-width: 272px;
+    margin: 0;
+    text-align: center;
+}
+@media screen and (min-width:768px) {
+    .features-p{
+        font-size: 16px;
+    }
+  }
