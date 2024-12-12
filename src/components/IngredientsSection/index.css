@@ -1,15 +1,21 @@
+.ingredients-page{
+    margin: 10%;
+}
 .ingredients-cont{
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .ingredients-first-cont{
-    width: 550px;
-    height: 266px;
-    margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+@media screen and (min-width:768px){
+    .ingredients-first-cont{
+        max-width: 500px;
+        height: auto;
+        margin-bottom: 20px;
+    }
 }
 .ingre-title{
     font-family: "jost";
@@ -19,27 +25,46 @@
 }
 .ingre-first-head{
     font-family: "jost";
-    font-size: 48px;
+    font-size: 25px;
     font-weight: 600;
     color: #17414f;
 }
+@media screen  and (min-width:786px){
+    .ingre-first-head{
+        font-size: 48px;
+    }
+}
 .ingre-first-para{
     font-family: "jost";
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: #727272;
-    max-width: 541px;
+    width: 90%;
+}
+@media screen  and (min-width:786px){
+    .ingre-first-para{
+        font-size: 16px;
+        max-width: 550px;
+    }
 }
 .ingre-card{
-    height: 266px;
-    width: 350px;
+    height: 100px;
+    width: 130px;
+    margin-bottom:10px ;
+    margin-right: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
     border-radius: 10px;
     background-size: cover;
-    margin-bottom: 20px;
+}
+@media screen  and (min-width:787px){
+    .ingre-card{
+        height: 266px;
+        width: 350px;
+        margin-bottom: 20px;
+    }
 }
 .bg-1{
     background-image: url("https://s3-alpha-sig.figma.com/img/833b/e5c7/5bb09cfba11a58d6ed328fdfb1d06a40?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aJ3JqyDwptuyLE-RcCPmRkId8D-AB473NFLtJGZsf1eqKca-Glr0vh5PofkjiqRZbAJ11XpBOyrHbssv0gCXQYC9zOmrLlIHCgwLZMzIPfZ5IyyJO0tQGGwRLwTdfBCO8l94sOLC9WRltI8RrjzljRvr1evpHWXUVwTnItuRAd~w6WLtm8yG0dkzA4SSGdSRTvuxHQG5c6ue27AJ-WAA0ejbO~tzWWJuy1mv3OEp5t30HGhZueUAbY8RBJsnZV2K8-l-BoqAnDXaMzPU3ZXRSIAGgibrdZaGg9RzdhjyyYVTzpoUx550w2y7k9JrzA1OZHliWHH-Mu-OZytYoHJOJQ");
@@ -62,12 +87,22 @@
     font-weight: 600;
     color: #2d3f59;
 }
+@media screen  and (max-width:787px){
+    .ingre-card-h{
+        font-size: 14px;
+    }
+}
 .ingre-card-p{
     font-family: "jost";
     font-size: 20px;
     font-weight: 500;
     color: #727272;
     max-width: 236px;
+}
+@media screen  and (max-width:787px){
+    .ingre-card-p{
+        font-size: 10px;
+    }
 }
 .ingre-card-btn{
     background-color: transparent;
@@ -79,7 +114,18 @@
     outline: none;
     cursor: pointer;
 }
+@media screen  and (max-width:787px){
+    .ingre-card-btn{
+        font-size: 10px;
+        padding: 10px;
+    }
+}
 .ingre-fill-img{
     width: 117px;
     height: 250px;
+}
+@media screen  and (max-width:787px){
+    .ingre-fill-img{
+        display: none;
+    }
 }

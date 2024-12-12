@@ -3,37 +3,37 @@ import './index.css'
 const blogList = [
     {
         date: '20 APR',
-        title: 'The Covi 19 Epidemic In 2022',
+        title: 'The Covid 19 Epidemic In 2022',
         bg: 'blog-bg-1',
     },
     {
         date: '20 APR',
-        title: 'The Covi 19 Epidemic In 2023',
+        title: 'The Covid 19 Epidemic In 2023',
         bg: 'blog-bg-2',
     },
     {
         date: '20 APR',
-        title: 'The Covi 19 Epidemic In 2022',
+        title: 'The Covid 19 Epidemic In 2022',
         bg: 'blog-bg-3',
     },
     {
         date: '',
-        title: 'The Covi 19 Epidemic In 2023',
+        title: 'The Covid 19 Epidemic In 2023',
         bg: 'blog-bg-4',
     },
     {
         date: '20 APR',
-        title: 'The Covi 19 Epidemic In 2022',
+        title: 'The Covid 19 Epidemic In 2022',
         bg: 'blog-bg-1',
     },
     {
         date: '20 APR',
-        title: 'The Covi 19 Epidemic In 2023',
+        title: 'The Covid 19 Epidemic In 2023',
         bg: 'blog-bg-2',
     },
     {
         date: '20 APR',
-        title: 'The Covi 19 Epidemic In 2022',
+        title: 'The Covid 19 Epidemic In 2022',
         bg: 'blog-bg-3',
     },
     {

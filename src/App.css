@@ -4,6 +4,9 @@
 .App-header {
   margin-left:10%;
 }
+.app-logo{
+  width: 15%;
+}
 .first-container{
   background-color: #e2f5fb;
   max-width: 94% ;

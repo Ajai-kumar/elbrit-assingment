@@ -49,7 +49,8 @@
 }
 @media screen and (min-width:768px) {
     .blog-list-container{
-        height: 820px;
+        height: 850px;
+        width: 95%;
     }
 }
 .blog-list{
@@ -62,7 +63,7 @@
 }
 @media screen and (min-width:768px) {
     .blog-list{
-        width: 290px;
+        width: 226px;
         border-radius: 15px;
         background-size: cover;
         padding: 10px 15px;

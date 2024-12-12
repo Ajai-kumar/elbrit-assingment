@@ -29,6 +29,7 @@ const ingredientsList = [
 ]
 
 const IngredientsSection = () => (
+    <div className='ingredients-page'>
     <div className='ingredients-cont'>
         <div className='ingredients-first-cont'>
             <p className='ingre-title'>INGREDIENTS</p>
@@ -45,6 +46,7 @@ const IngredientsSection = () => (
             </div>
         ))}
         <img className='ingre-fill-img' src='https://s3-alpha-sig.figma.com/img/481a/5bc5/e968343e02ead9caa7924ddcbe67f484?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=isHNUtnP5iIEQWpnfbALi3y6aLrgERKb5Jo9BlfDcZMLikAan6qx3FmvvhjLxt2HklkM34YOzzohwue9BMYB9e~lx1~1TExqAA4HfvKu4wIR2E8N5EUZC00LM-05L33X1syt9lgfWPMXt6GUGuoGsXyHSxqcKF7ROPhAuQdK16-STlHtmz1JNfQ~4K4Fl0vNY~ScS-zuNfRzcUh9i04WnyzRj2mihDJXfImFvhNlIhxfTVLizrwKz48kQ-JfFlsxt2l~XZZf~vOYZmtvO-UJ8leBND8avmNv9fD9Eo7ybk1XUWm1-0EntuUdrkmijRvTG2dz4VixIsROa95bYFCe8w' alt='fill-image' />
+    </div>
     </div>
 )
 
